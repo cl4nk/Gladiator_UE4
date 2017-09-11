@@ -4,9 +4,10 @@ using UnrealBuildTool;
 
 public class Project : ModuleRules
 {
-	public Project(TargetInfo Target)
+	public Project(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AIModule", "GameplayTasks", "UMG", "Slate", "SlateCore", "Networking", "Sockets" });
+
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AIModule", "GameplayTasks", "UMG", "Slate", "SlateCore", "Networking", "Sockets" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 		

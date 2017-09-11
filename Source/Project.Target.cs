@@ -5,21 +5,11 @@ using System.Collections.Generic;
 
 public class ProjectTarget : TargetRules
 {
-	public ProjectTarget(TargetInfo Target)
+	public ProjectTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
+
+	    ExtraModuleNames.Add("Project");
 	}
 
-	//
-	// TargetRules interface.
-	//
-
-	public override void SetupBinaries(
-		TargetInfo Target,
-		ref List<UEBuildBinaryConfiguration> OutBuildBinaryConfigurations,
-		ref List<string> OutExtraModuleNames
-		)
-	{
-		OutExtraModuleNames.AddRange( new string[] { "Project" } );
-	}
 }

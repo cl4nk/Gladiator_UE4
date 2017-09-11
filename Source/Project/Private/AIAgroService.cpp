@@ -15,7 +15,7 @@ UAIAgroService::UAIAgroService(const FObjectInitializer& ObjectInitializer) : Su
 
 void UAIAgroService::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory, float DeltaSeconds)
 {
-	int NumPlayers = UGameplayStatics::GetGameMode(OwnerComp.GetOwner()->GetWorld())->NumPlayers;
+	int NumPlayers = UGameplayStatics::GetGameMode(OwnerComp.GetOwner()->GetWorld())->GetNumPlayers();
 
 	if (NumPlayers == 0)
 		return;

@@ -46,7 +46,7 @@ void	AArenaCharacter::BeginPlay()
 void	AArenaCharacter::InstantiateDefaultItems_Implementation()
 {
 	FActorSpawnParameters	Params;
-	Params.bNoCollisionFail = true; // Triggers warning, but new version creates unexpected errors
+	Params.bNoFail = true; // Triggers warning, but new version creates unexpected errors
 
 	if (DefaultShieldClass)
 	{
