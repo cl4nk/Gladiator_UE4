@@ -1,60 +1,24 @@
-=========================================
-== GLADIATOR - Groupe_NEWTON_Guillaume ==
-=========================================
+#Gladiator Beat'em All - Unreal Engine 4 #
 
--------------------------------
-Implemented mandatory features:
--------------------------------
+Made by Guillaume Newton, Benoit Ly, and Nicolas Fontes, at ISART Digital, Paris, France.
 
-- Day and night cycle:
-	* Implemented by Nicolas.
-	
-- Sound:
-	* Implemented by Benoit.
+Made in 3 weeks.
 
-- Camera:
-	* Optimized by all the group.
-	
-- Characters:
-	* Optimized by all the group.
-	
-- AI:
-	* Implemented by Nicolas.
-	
-- Animation:
-	* Implemented by Benoit.
-	
-- Game state / game flow:
-	* Implemented by Guillaume.
-	
-- HUD:
-	* Splitted between Benoit and Nicolas.
-	
-	
-------------------------------
-Implemented optional features:
+With Unreal Engine 4.17
+
+Gameplay Summary 
 ------------------------------
 
-- Rain:
-	* Implemented by Guillaume.
-	
-- Equipment drop:
-	* Implemented by Nicolas.
-	
-- Matinee effect:
-	* Implemented by Nicolas.
-	
-- Visual FX:
-	* Splitted between Benoit and Nicolas.
-	
-- Lock:
-	* Splitted between Guillaume and Nicolas.
-	
-- Network:
-	* Implemented by Guillaume.
+Main Implemented features
+-------------------------------
+- Online game session
+- Day and night cycle
+- Sound
+- AI
+- UI
+- Rain
+- Equipment drop
 
-
----------------------
 Limitations and bugs:
 ---------------------
 
@@ -62,8 +26,6 @@ Sometimes dropped equipment fall under the ground when somebody steps on it.
 Some rare randoms crashes. Also, if a server leaves the game, clients stops working (no crash, just a freeze).
 Sometimes, not all Items (such as Hammer and Shield) are created, this happens only when packaging. In that case, it's needed to restart the map.
 
-
-------
 Input:
 ------
 
