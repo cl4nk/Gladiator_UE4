@@ -1,4 +1,4 @@
-#Gladiator Beat'em All - Unreal Engine 4 #
+##Gladiator Beat'em All - Unreal Engine 4 ##
 
 Made by Guillaume Newton, Benoit Ly, and Nicolas Fontes, at ISART Digital, Paris, France.
 
@@ -8,6 +8,7 @@ With Unreal Engine 4.17
 
 Gameplay Summary 
 ------------------------------
+WIP
 
 Main Implemented features
 -------------------------------
