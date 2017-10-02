@@ -17,7 +17,8 @@ void ACameraDirector::BeginPlay()
 {
 	Super::BeginPlay();
 	CamManager = UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0);
-	PlayerCamera = CamManager->GetViewTarget();
+	PlayerCamera = UGameplayStatics::GetPlayerController(GetWorld(), 0)->GetPawnOrSpectator();
+
 	SwitchToMatinee();
 }
 
